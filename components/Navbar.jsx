@@ -17,6 +17,9 @@ const navItems = [
 export default function Navbar() {
     const [ isOpen, setIsOpen ] = useState(false);
 
+    const handleClose =()=>{
+        setIsOpen(false)
+    }
     return (
         <nav className="bg-white text-gray-800 sticky top-0 z-50 shadow-md">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -95,6 +98,7 @@ export default function Navbar() {
                                 key={item.name}
                                 href={item.href}
                                 className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-100 transition duration-300"
+                                onClick={handleClose}
                             >
                                 {item.name}
                             </Link>
