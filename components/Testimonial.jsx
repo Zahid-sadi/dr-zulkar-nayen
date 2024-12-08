@@ -5,15 +5,15 @@ import { useState } from "react";
 
 const testimonials = [
     {
-        name: "John Doe",
-        text: "Dr. Jane Doe's expertise and care were instrumental in my recovery. I cannot thank her enough.",
+        name: "John",
+        text: "Dr. Zulkar Nayen's expertise and care were instrumental in my recovery. I cannot thank him enough.",
     },
     {
-        name: "Sarah Smith",
+        name: "Sarah ",
         text: "The level of professionalism and compassion I experienced was truly exceptional. Dr. Doe is a gifted surgeon.",
     },
     {
-        name: "Mike Johnson",
+        name: "Abdullah",
         text: "I felt confident and at ease throughout my treatment. Dr. Doe's skill is matched only by her kindness.",
     },
 ];

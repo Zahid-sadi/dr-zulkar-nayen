@@ -31,7 +31,7 @@ export default function Gallery() {
 
     return (
         <section id="gallery" className="py-16 md:py-44 bg-gray-100">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Gallery</h2>
                 <div className=" grid grid-col-1 md:grid-cols-3 lg:grid-col-4  gap-10">
                     {images.map((image, index) => (

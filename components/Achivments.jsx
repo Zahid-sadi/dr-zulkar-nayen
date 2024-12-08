@@ -27,7 +27,7 @@ const Achievements = () => {
     ];
 
     return (
-        <section id="achievements" className="py-16 md:py44 bg-gray-50">
+        <section id="achievements" className="py-16 md:py-44 mt-5 md:py44 bg-gray-50">
             <div className="container mx-auto px-6 md:px-12 text-center">
                 <motion.h2
                     initial={{ opacity: 0, y: -20 }}

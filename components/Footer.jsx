@@ -49,7 +49,7 @@ const Footer = () => {
                         <ul className="mt-4 text-sm space-y-2 text-gray-400">
                             <li>Email: info@drzulkar.com</li>
                             <li>Phone: +1 234 567 890</li>
-                            <li>Location: 123 Medical St, New York, USA</li>
+                            <li>Location: 123 Medical St, Dhaka</li>
                         </ul>
                     </div>
                 </div>

@@ -1,11 +1,11 @@
 
 const Hero = () => {
     return (
-        <div id="" className=" h-[800px] w-full flex items-start justify-start  bg-cyan-400">
+        <div id="" className=" h-[800px] w-full flex items-start justify-start  bg-cyan-500">
             <div className="max-w-xl mx-auto py-44 ">
-                <h2 className="text-5xl mb-5 font-bold text-gray-100 ">Dr.Zulkar Nayen</h2>
+                <h2 className="text-5xl mb-5 font-bold text-gray-50 ">Dr.Zulkar Nayen</h2>
 
-                <p className=" text-gray-200">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima odit expedita quos magni ratione adipisci?</p>
+                <p className=" text-gray-100">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima odit expedita quos magni ratione adipisci?</p>
             </div>
         </div>
     );
