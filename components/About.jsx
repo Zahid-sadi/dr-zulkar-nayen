@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
     return (
-        <section className="p-20 flex h-[400px] flex-col md:flex-row items-center justify-center bg-white">
+        <section id="about" className="p-16 md:py-44 flex h-[400px] flex-col md:flex-row items-center justify-center bg-white">
             <div className=" w-full md:1/2 h-72 md:h-auto md:1/2  text-justify mx-auto px-6 md:px-12">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}

@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Achievements from "@/components/Achivments";
 import Contact from "@/components/Contact";
 import Gallery from "@/components/Gallary";
 import Hero from "@/components/Hero";
@@ -11,10 +12,10 @@ export default function Home() {
   return (
     
     <>
-      <Navbar />
       <Hero />
       <About />
       <Services />
+      <Achievements/>
       <Publications />
       <Gallery />
       <Testimonials />
