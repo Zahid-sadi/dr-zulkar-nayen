@@ -1,6 +1,15 @@
 "use client";
 
 import Link from "next/link";
+const navItems = [
+    { name: "Home", href: "#" },
+    { name: "About", href: "#about" },
+    { name: "Services", href: "#services" },
+    { name: "Achievements", href: "#achievements" },
+    { name: "Publications", href: "#publications" },
+    { name: "Gallery", href: "#gallery" },
+    { name: "Contact", href: "#contact" },
+];
 
 const Footer = () => {
     return (
@@ -19,28 +28,13 @@ const Footer = () => {
                     {/* Quick Links Section */}
                     <div>
                         <h3 className="text-lg font-semibold text-white">Quick Links</h3>
-                        <ul className="mt-4 space-y-2 text-sm">
-                            <li>
-                                <Link href="/" className="hover:text-white transition-colors duration-300">
-                                    Home
+                        <div className="mt-4 grid grid-cols-2 text-sm gap-2">
+                            {navItems.map((items) => (
+                                <Link key={items.href} href={items.href}>
+                                    {items.name}
                                 </Link>
-                            </li>
-                            <li>
-                                <Link href="/services" className="hover:text-white transition-colors duration-300">
-                                    Services
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/about" className="hover:text-white transition-colors duration-300">
-                                    About Us
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/contact" className="hover:text-white transition-colors duration-300">
-                                    Contact
-                                </Link>
-                            </li>
-                        </ul>
+                            ))}
+                        </div>
                     </div>
 
                     {/* Contact Section */}
