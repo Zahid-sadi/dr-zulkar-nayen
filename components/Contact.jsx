@@ -83,7 +83,7 @@ export default function Contact() {
                                     whileHover={{ scale: 1.01 }}
                                     whileTap={{ scale: 0.25 }}
                                     type="submit"
-                                    className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline flex items-center"
+                                    className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline flex items-center"
                                 >
                                     <Send className="w-4 h-4 mr-2" />
                                     Send Message

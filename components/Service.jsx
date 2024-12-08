@@ -38,7 +38,7 @@ export default function Services() {
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="bg-gray-50 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"
+                            className="bg-gray-50 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border"
                         >
                             <div className="flex items-center justify-center w-16 h-16 bg-blue-500 rounded-full mb-4">
                                 <service.icon className="w-8 h-8 text-white" />
