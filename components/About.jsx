@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 export default function About() {
     return (
-        <section id="about" className="py-16 mt-5 container mx-auto md:py-44 flex h-[400px] flex-col md:flex-row items-center justify-center bg-white">
-            <div className=" w-full md:1/2 h-72 md:h-auto md:1/2  text-justify mx-auto px-6 md:px-12">
+        <section id="about" className="py-0 mt-0 md:mt-5 container mx-auto md:py-44 flex h-fit md:h-[400px] flex-col-reverse md:flex-row items-center justify-center bg-white">
+            <div className=" w-full md:1/2 overflow-auto  h-72 md:h-auto md:1/2  text-justify mx-auto px-10 md:px-12">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="text-3xl font-bold text-center text-gray-800 mb-8"
+                    className="text-3xl font-bold text-center text-gray-800 my-8"
                 >
                     About Me
                 </motion.h2>

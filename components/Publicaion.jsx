@@ -26,10 +26,10 @@ const publications = [
 
 export default function Publications() {
     return (
-        <section id="publications" className="py-16 md:py-44 bg-white px-6">
+        <section id="publications" className="py-16 md:py-44 bg-white">
             <div className="container mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Recent Publications</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                     {publications.map((pub, index) => (
                         <motion.div
                             key={index}
