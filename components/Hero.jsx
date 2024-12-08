@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div
             id=""
-            className="h-96 relative md:h-[800px] bg-opacity-45 w-full flex items-start justify-between  bg-cyan-500"
+            className="h-fit relative md:h-[800px] bg-opacity-45 w-full flex flex-col-reverse md:flex-row items-start justify-between  bg-cyan-500"
         >
             <div
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
