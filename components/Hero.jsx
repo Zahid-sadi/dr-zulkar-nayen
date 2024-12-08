@@ -15,7 +15,7 @@ const Hero = () => {
                 }}
             ></div>
             <Image
-                className="h-full px-20  w-full md:w-1/2 z-30"
+                className="h-96 1/2 md:w-1/2 z-30"
                 src={proPic}
                 height={900}
                 width={900}

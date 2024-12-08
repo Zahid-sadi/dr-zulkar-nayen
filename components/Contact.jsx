@@ -107,7 +107,7 @@ export default function Contact() {
                                 <li className="flex items-center">
                                     <Mail className="w-6 h-6 text-cyan-500 mr-4" />
                                     <a
-                                        href="mailto:dr.janedoe@example.com"
+                                        href="mailto:dr.zulkarnayen@gmail.com"
                                         className="text-gray-700 hover:text-cyan-500"
                                     >
                                         dr.zulkarnayen@gmail.com
