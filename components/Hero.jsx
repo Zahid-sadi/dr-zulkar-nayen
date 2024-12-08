@@ -17,16 +17,18 @@ const Hero = () => {
             <Image
                 className="h-full bg- black -900 w-full md:w-1/2 z-30"
                 src={proPic}
-                height={200}
-                width={100}
+                height={800}
+                width={800}
                 alt="dr photo"
             ></Image>
             <div className="w-full md:w-1/2  bg-black -500  bg-opacity-45 z-20 mx-auto py-10 px-6 ">
                 <h2 className="text-5xl mb-5 font-bold text-gray-50 ">Dr.Zulkar Nayen</h2>
 
                 <p className=" max-w-xl text-gray-100">
-                    Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima odit expedita quos magni ratione adipisci?
+                    Welcome to my neurology portfolio, where science meets compassion in understanding the complexities
+                    of the human brain and nervous system. With a focus on cutting-edge research, advanced diagnostic
+                    techniques, and patient-centered care, I am dedicated to improving neurological health and enhancing
+                    lives. Explore my achievements, publications, and vision for advancing the field of neurology.
                 </p>
             </div>
         </div>
