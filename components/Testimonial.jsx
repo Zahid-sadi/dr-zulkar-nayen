@@ -46,7 +46,7 @@ export default function Testimonials() {
                             <p className="text-xl text-gray-600 mb-4 italic">
                                 &ldquo;{testimonials[currentIndex].text}&ldquo;
                             </p>
-                            <p className="text-lg font-semibold text-gray-800">- {testimonials[currentIndex].name}</p>
+                            <p className="text-lg font-semibold text-gray-800"> {testimonials[currentIndex].name}</p>
                         </motion.div>
                     </AnimatePresence>
                     <div className="flex justify-center mt-8 space-x-4">

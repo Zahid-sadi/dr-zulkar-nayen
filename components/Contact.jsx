@@ -83,7 +83,7 @@ export default function Contact() {
                                     whileHover={{ scale: 1.01 }}
                                     whileTap={{ scale: 0.25 }}
                                     type="submit"
-                                    className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline flex items-center"
+                                    className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline flex items-center"
                                 >
                                     <Send className="w-4 h-4 mr-2" />
                                     Send Message
@@ -101,20 +101,20 @@ export default function Contact() {
                             <h3 className="text-2xl font-bold text-gray-800 mb-6">Contact Information</h3>
                             <ul className="space-y-4">
                                 <li className="flex items-center">
-                                    <Phone className="w-6 h-6 text-blue-500 mr-4" />
+                                    <Phone className="w-6 h-6 text-cyan-500 mr-4" />
                                     <span className="text-gray-700">+880 123-4567</span>
                                 </li>
                                 <li className="flex items-center">
-                                    <Mail className="w-6 h-6 text-blue-500 mr-4" />
+                                    <Mail className="w-6 h-6 text-cyan-500 mr-4" />
                                     <a
                                         href="mailto:dr.janedoe@example.com"
-                                        className="text-gray-700 hover:text-blue-500"
+                                        className="text-gray-700 hover:text-cyan-500"
                                     >
                                         dr.zulkarnayen@gmail.com
                                     </a>
                                 </li>
                                 <li className="flex items-start">
-                                    <MapPin className="w-6 h-6 text-blue-500 mr-4 mt-1" />
+                                    <MapPin className="w-6 h-6 text-cyan-500 mr-4 mt-1" />
                                     <span className="text-gray-700">
                                         123 khilgaon
                                         <br />

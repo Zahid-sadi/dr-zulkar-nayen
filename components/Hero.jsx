@@ -1,11 +1,33 @@
+import proPic from '@/public/Images/zulkar.png';
+import Image from "next/image";
 
 const Hero = () => {
     return (
-        <div id="" className="h-96 md:h-[800px] bg-opacity-45 w-full flex items-center justify-start  bg-cyan-500">
-            <div className="max-w-xl  z-20 mx-auto py-10 px-6 ">
+        <div
+            id=""
+            className="h-96 relative md:h-[800px] bg-opacity-45 w-full flex items-start justify-between  bg-cyan-500"
+        >
+            <div
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                style={{
+                    backgroundImage:
+                        'url("https://images.unsplash.com/photo-1573511860302-28c524319d2a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+                }}
+            ></div>
+            <Image
+                className="h-full bg-black -900 w-full md:w-1/2 z-30"
+                src={proPic}
+                height={200}
+                width={100}
+                alt="dr photo"
+            ></Image>
+            <div className="w-full md:w-1/2  bg-black -500  bg-opacity-45 z-20 mx-auto py-10 px-6 ">
                 <h2 className="text-5xl mb-5 font-bold text-gray-50 ">Dr.Zulkar Nayen</h2>
 
-                <p className=" text-gray-100">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima odit expedita quos magni ratione adipisci?</p>
+                <p className=" max-w-xl text-gray-100">
+                    Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minima odit expedita quos magni ratione adipisci?
+                </p>
             </div>
         </div>
     );

@@ -4,8 +4,11 @@ import { motion } from "framer-motion";
 
 export default function About() {
     return (
-        <section id="about" className="py-0 mt-0 md:mt-5 container mx-auto md:py-44 flex h-fit md:h-[400px] flex-col-reverse md:flex-row items-center justify-center bg-white">
-            <div className=" w-full md:1/2 overflow-auto  h-72 md:h-auto md:1/2  text-justify mx-auto px-10 md:px-12">
+        <section
+            id="about"
+            className="py-0 mt-0 md:mt-5 container mx-auto md:py-44 flex h-fit md:h-[400px] flex-col-reverse md:flex-row items-center justify-center bg-white"
+        >
+            <div className=" w-full md:1/2 overflow-auto md:overflow-hidden h-72 md:h-auto md:1/2  text-justify mx-auto px-10 md:px-12">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -31,9 +34,9 @@ export default function About() {
                     </p>
                 </motion.div>
             </div>
-            <div className="w-full h-72 md:h-auto md:1/2">
+            <div className="w-full  z-40 rounded-t-full  h-72 md:h-auto md:1/2">
                 <img
-                    className="h-full -mb-44 w-full "
+                    className="h-full rounded-t-full p-14 w-full "
                     src="https://images.unsplash.com/photo-1584467735867-4297ae2ebcee?q=80&w=2010&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                 />

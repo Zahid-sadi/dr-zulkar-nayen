@@ -38,7 +38,7 @@ export default function Publications() {
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             className="bg-gray-50 rounded-lg shadow-lg overflow-hidden flex flex-col"
                         >
-                            <div className="bg-green-500 p-4 flex items-center justify-center">
+                            <div className="bg-cyan-500 p-4 flex items-center justify-center">
                                 <BookOpen className="w-8 h-8 text-white" />
                             </div>
                             <div className="p-6 flex-grow">
@@ -51,7 +51,7 @@ export default function Publications() {
                                     href={`https://doi.org/${pub.doi}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-green-600 hover:underline"
+                                    className="text-cyan-600 hover:underline"
                                 >
                                     DOI: {pub.doi}
                                 </a>
