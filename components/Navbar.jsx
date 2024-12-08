@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useState } from "react";
 
 const navItems = [
     { name: "Home", href: "#" },
@@ -23,7 +23,7 @@ export default function Navbar() {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
                         <Link href="/" className="flex-shrink-0">
-                            <span className="text-2xl font-bold text-blue-600">Dr. Jane Doe</span>
+                            <span className="text-2xl font-bold text-blue-600">Dr. Zulkar Nayen</span>
                         </Link>
                     </div>
                     <div className="hidden md:block">

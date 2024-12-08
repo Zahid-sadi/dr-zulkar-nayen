@@ -80,8 +80,8 @@ export default function Contact() {
                             </div>
                             <div className="flex items-center justify-end">
                                 <motion.button
-                                    whileHover={{ scale: 1.05 }}
-                                    whileTap={{ scale: 0.95 }}
+                                    whileHover={{ scale: 1.01 }}
+                                    whileTap={{ scale: 0.25 }}
                                     type="submit"
                                     className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline flex items-center"
                                 >
@@ -102,7 +102,7 @@ export default function Contact() {
                             <ul className="space-y-4">
                                 <li className="flex items-center">
                                     <Phone className="w-6 h-6 text-blue-500 mr-4" />
-                                    <span className="text-gray-700">+1 (555) 123-4567</span>
+                                    <span className="text-gray-700">+880 123-4567</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Mail className="w-6 h-6 text-blue-500 mr-4" />

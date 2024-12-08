@@ -7,27 +7,22 @@ const images = [
     {
         src: "https://images.unsplash.com/photo-1710074213374-e68503a1b795?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         alt: "Operating Room",
-        height:250,
     },
     {
         src: "https://images.unsplash.com/photo-1710074213374-e68503a1b795?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         alt: "Brain Scan",
-        height:300,
     },
     {
         src: "https://images.unsplash.com/photo-1710074213374-e68503a1b795?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         alt: "Brain Scan",
-        height: 250,
     },
     {
         src: "https://images.unsplash.com/photo-1710074213374-e68503a1b795?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         alt: "Brain Scan",
-        height: 200,
     },
     {
         src: "https://images.unsplash.com/photo-1710074213374-e68503a1b795?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         alt: "Brain Scan",
-        height: 250,
     },
 ];
 
@@ -38,7 +33,7 @@ export default function Gallery() {
         <section id="gallery" className="py-20 bg-gray-100">
             <div className="container mx-auto px-4">
                 <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Gallery</h2>
-                <div className=" grid grid-col-1 md:grid-cols-3 lg:grid-col-3  gap-10">
+                <div className=" grid grid-col-1 md:grid-cols-3 lg:grid-col-4  gap-10">
                     {images.map((image, index) => (
                         <motion.div
                             key={index}
@@ -52,12 +47,12 @@ export default function Gallery() {
                             <img
                                 src={image.src}
                                 alt={image.alt}
-                                width={200}
-                                height={100}
+                                width={100}
+                                height={50}
                                 className="w-full h-full object-cover"
                             />
                             <motion.div
-                                className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center"
+                                className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center"
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: hoveredIndex === index ? 1 : 0 }}
                                 transition={{ duration: 0.3 }}

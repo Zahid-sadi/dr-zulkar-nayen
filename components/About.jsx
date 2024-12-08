@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 export default function About() {
     return (
-        <section className="py-20 bg-white">
-            <div className="container mx-auto px-4">
+        <section className="p-20 flex h-[400px] flex-col md:flex-row items-center justify-center bg-white">
+            <div className=" w-full md:1/2 h-72 md:h-auto md:1/2  text-justify mx-auto px-6 md:px-12">
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="text-4xl font-bold text-center text-gray-800 mb-8"
+                    className="text-3xl font-bold text-center text-gray-800 mb-8"
                 >
                     About Me
                 </motion.h2>
@@ -18,7 +18,7 @@ export default function About() {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
-                    className="max-w-3xl mx-auto text-center"
+                    className="max-w-3xl mx-auto"
                 >
                     <p className="text-lg text-gray-600 mb-6">
                         With over 15 years of experience in neurosurgery, I specialize in treating complex brain and
@@ -30,6 +30,13 @@ export default function About() {
                         contributing to medical journals and mentoring the next generation of surgeons.
                     </p>
                 </motion.div>
+            </div>
+            <div className="w-full h-72 md:h-auto md:1/2">
+                <img
+                    className="h-full -mb-44 w-full "
+                    src="https://images.unsplash.com/photo-1584467735867-4297ae2ebcee?q=80&w=2010&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                />
             </div>
         </section>
     );

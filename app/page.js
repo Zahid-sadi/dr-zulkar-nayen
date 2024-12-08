@@ -11,14 +11,14 @@ export default function Home() {
   return (
     
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
-      {/* <About /> */}
-      {/* <Services /> */}
-      {/* <Testimonials /> */}
-      {/* <Publications /> */}
-      {/* <Gallery /> */}
-      {/* <Contact/> */}
+      <About />
+      <Services />
+      <Publications />
+      <Gallery />
+      <Testimonials />
+      <Contact/>
     </>
   );
 }
