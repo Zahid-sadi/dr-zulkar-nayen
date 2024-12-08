@@ -15,13 +15,13 @@ const Hero = () => {
                 }}
             ></div>
             <Image
-                className="h-full bg- black -900 w-full md:w-1/2 z-30"
+                className="h-full px-20  w-full md:w-1/2 z-30"
                 src={proPic}
-                height={800}
-                width={800}
+                height={900}
+                width={900}
                 alt="dr photo"
             ></Image>
-            <div className="w-full md:w-1/2  bg-black -500  bg-opacity-45 z-20 mx-auto py-10 px-6 ">
+            <div className="w-full md:w-1/2 rounded-l-xl bg-black -500  bg-opacity-45 z-20 mx-auto py-10 px-6 ">
                 <h2 className="text-5xl mb-5 font-bold text-gray-50 ">Dr.Zulkar Nayen</h2>
 
                 <p className=" max-w-xl text-gray-100">
