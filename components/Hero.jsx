@@ -1,3 +1,4 @@
+
 "use client";
 
 import { motion } from "framer-motion";
@@ -49,12 +50,14 @@ function Hero() {
 
         return () => {
             window.removeEventListener("resize", handleResize);
-            mountRef.current.removeChild(renderer.domElement);
+            if (mountRef.current) {
+                mountRef.current.removeChild(renderer.domElement); // Ensure mountRef.current exists
+            }
         };
     }, []);
 
     return (
-        <section className="relative h-screen bg-gradient-to-r from-blue-500 to-purple-600">
+        <section className="relative h-screen w-full bg-gradient-to-r from-blue-500 to-purple-600">
             <div ref={mountRef} className="absolute inset-0 opacity-30"></div>
             <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center text-white z-10">
@@ -66,11 +69,11 @@ function Hero() {
                         <Image
                             src="/placeholder.svg?height=200&width=200"
                             alt="Dr. Jane Doe"
-                            width={200}
-                            height={200}
+                            width={400}
+                            height={400}
                             className="rounded-full mx-auto mb-8 border-4 border-white shadow-lg"
                         />
-                        <h1 className="text-5xl font-bold mb-4">Dr. Jane Doe</h1>
+                        <h1 className="text-5xl font-bold mb-4">Dr. Zulkar Nayen</h1>
                         <p className="text-xl">Specialized in Neurosurgery</p>
                     </motion.div>
                 </div>
