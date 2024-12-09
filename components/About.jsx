@@ -34,7 +34,7 @@ export default function About() {
                     </p>
                 </motion.div>
             </div>
-            <div className="w-full  z-40 rounded-t-full h-80 md:h-auto md:1/2">
+            <div className="w-full p-2 md:p-10  z-40 rounded-t-full h-80 md:h-auto md:1/2">
                 <img
                     className="h-full rounded-t-full p-5 w-full "
                     src="https://images.unsplash.com/photo-1584467735867-4297ae2ebcee?q=80&w=2010&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
